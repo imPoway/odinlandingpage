@@ -73,7 +73,7 @@
 
   img.direction {
     float: right;
-    max-height: 300px;
+    max-height: 400px;
     display: block;
   }
 
@@ -119,7 +119,8 @@
    }
 
    img.chess {
-    max-height: 200px;
+    height: 200px;
+    width: 200px;
     border-radius: 12px;
     border-style: solid;
     border-color: #719fea;
@@ -163,4 +164,32 @@
     border-style: solid;
     border-color: #719fea;
     font-weight: 700;
+    color: #FFF;
+   }
+
+   #actionsign {
+    font-weight: 100;
+    font-size: 14px;
+    margin: 0;
+    margin-right: 22%;
+    display: inline-block;
+   }
+
+   #actionsignup {
+    float: right;
+    margin-bottom: 2%;
+    color: #FFF;
+    background-color: #719fea;
+    border-color: #ffffff;
+    border-radius: 6px;
+    padding: 4px 30px 4px 30px;
+   }
+
+   #footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #FFF;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 14px;
    }
